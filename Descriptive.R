@@ -1,4 +1,4 @@
-# Data Analysis - 1_Descriptive 
+# Data Analysis_Descriptive 
 # by Ran Gao on 26/09/2018
 
 # 0.Set the working environment
