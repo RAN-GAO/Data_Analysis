@@ -1,4 +1,4 @@
-# Data Analysis_Permutation Test
+# Data Analysis_Analysis of Variance
 # by Ran Gao on 06/11/2018 
 
 
