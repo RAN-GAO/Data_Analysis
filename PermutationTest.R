@@ -72,7 +72,7 @@ scatterplotMatrix(~Girth+Height+Volume, data=trees,
 # 3. Grith and Height is positively related but not that significantly.
 
 # 1.5 High-density scatter plots.
-# 1.5.1 Use the dataset 'diamonds'£»load and explore the data.
+# 1.5.1 Use the dataset 'diamonds'Â£Â»load and explore the data.
 library(ggplot2)
 data("diamonds")
 View(diamonds)
