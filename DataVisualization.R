@@ -1,4 +1,4 @@
-# Data Analysis_Descriptive Analysis
+# Data Analysis_Descriptive Methods and Data Visualization
 # by Ran Gao on 26/09/2018
 
 # 0.Set the working environment
