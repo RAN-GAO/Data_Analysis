@@ -1,5 +1,5 @@
 # Data Analysis_General Linear Models
-# by Ran Gao on 05/12/2018 
+# by Ran Gao on 20/11/2018 
 
 
 rm(list=ls())
@@ -13,7 +13,7 @@ summary(model1)
 # The hypothesis compared by the Wald test are:H0: bDUR = 0 vs. H1: bDUR 1 0.
 # The test statistic is given by 3.978 and the p-value by 6.95E-5, so we reject the null hypothesis.
 
-# 1.2 Check if the probability to be renegotiated for a mortgage with a residual amount of 40 (thousand euros) and 60 months of residual duration is associated with the borrower¡¯s working position
+# 1.2 Check if the probability to be renegotiated for a mortgage with a residual amount of 40 (thousand euros) and 60 months of residual duration is associated with the borrowerÂ¡Â¯s working position
 model1b <- glm(REVIEW ~ RES_DEBT + DUR, family = binomial(logit), data = debt)
 anova(model1b, model1, test = "Chisq")
 # The likelihood ratio test is: H0: bWORKSE = bWORKO = 0 vs. H1: at least one of the coefficients is different from zero.
