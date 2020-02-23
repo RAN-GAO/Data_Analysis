@@ -1,12 +1,12 @@
-# Data Analysis_ 
-# by Ran Gao on 26/09/2018
+# Data Analysis_Multiple Linear Regression
+# by Ran Gao on 24/10/2018
 
 # Set the working environment
 rm(list=ls())
 setwd("D:/R")
 
 # 1. for this problem we will use the dataset "auto.RData"
-# 1.1 Load the file ¡°auto.RData¡± on R, verify the type of variables in the dataset and erase any missing value.
+# 1.1 Load the file Â¡Â°auto.RDataÂ¡Â± on R, verify the type of variables in the dataset and erase any missing value.
 load("auto.RData")
 str(auto)
 summary(auto)
